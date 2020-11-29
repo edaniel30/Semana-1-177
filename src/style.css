@@ -1,0 +1,332 @@
+body{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* creados DanielRivera */
+#columnas{
+    column-count:4;
+    column-gap:20px;
+    column-rule:4px;
+    list-style: none;
+ }
+/*  */
+.container{
+    width: 1200px;
+    background-color: #888888;
+    height: 200px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+.header{
+    background-color: aqua;
+    height: auto;
+    
+}
+
+.container-menu{
+    height: 60px;
+    background-color: rgb(254, 255, 238);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+
+}
+.container-logo{
+    width: 100%;
+    height: inherit;
+    background-color: rgb(3, 12, 53);
+    text-align: center;
+}
+
+.site-title{
+    margin: 0;
+    padding: 0.36em 0;
+}
+
+.container-imagen{
+    background-image: url('./img/imagen_fondo.png');
+    height: 370px;
+    background-size: cover;
+    font-size: 24px;
+    text-decoration: underline;
+    color:White;
+    text-shadow: 3px 3px 3px blue, 6px 6px 6px black;
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+
+.nav-list{
+    padding: 0.25em 0;
+    list-style-type: none;
+    text-align: end;
+    width: 100%
+}
+
+.nav-element{
+    padding: 1em 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #3e3e3e;
+
+}
+
+.nav-element:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.image-text{
+    margin: 0;
+    padding: 9% 0;
+    text-align: center;
+
+
+}
+
+.services{
+    height: 500px;
+    background-color: gainsboro;
+
+}
+
+.news{
+    /* height: 500px; */
+    background-color: gainsboro;
+}
+
+.team{
+    /* height: 500px; */
+    align-items: center;
+    background-color: azure;
+}
+
+.footer{
+    height: 190px;
+    background-color: rgb(255, 255, 255);
+    bottom: 30px;
+    /* position: fixed; */
+    /* width: 1200px; */
+}
+
+.section-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.volver {
+    margin: 0;
+    color: #3e3e3e;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.volver:hover {
+    color: blue;
+}
+
+.col-3{
+    width: 33.08%;
+    height: 470px;
+    background-color: steelblue;
+    display: inline-block;
+    padding: -15px;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+.subtitulo {
+    color: black;
+}
+
+.subtitulo:hover {
+    color: white;
+    text-shadow: 2px 2px 2px blue, 4px 4px 4px black;
+}
+
+.foto:hover {
+	border-radius: 50px;
+	border: 5px double red;
+	transform: rotate(-2deg);
+	transition: all 350ms ease-in-out;
+	/*background: linear-gradient(to right, rgba(255,250,250,0), rgba(250,250,250, 1)), url(fotos/neiva.jpg);*/
+}
+
+.cuadro {
+    float: right;
+    text-align: center;
+    width: 66.16%;
+    height: 470px;
+    padding: -15px;
+    margin-top: 5px;
+    background: rgb(194, 194, 194);
+    display: block;
+}
+
+.componentes{
+    width: 32%;
+    height: 390px;
+    background-color: whitesmoke;
+    display: inline-block;
+    /*padding: -15px;*/
+    /*margin-top: 5px;*/
+    text-align: center;
+
+}
+
+.cuadro li {
+    list-style: none;
+    text-align: center;
+    margin: 25px;
+    font-size: 25px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.defini{
+    padding: 10px;
+    margin: 10px;
+    height: 270px;
+    width: 210px;
+    bottom: 0;
+    overflow: hidden;
+    border: 2px inset black;
+    border-radius: 10px 10px 10px 10px;
+}
+.col-5{
+    width: 22%;
+    height: 80%;
+    /* height: 470px; */
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    background-color: steelblue;
+}
+
+.service-content{
+    padding: 0.5em 0;
+    color: #ffffff;
+}
+.service-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+}
+
+.service-text.memebers{
+    font-style: italic; 
+}
+
+.section-news > div:first-child{
+    margin: 15px 15px 15px 15px; 
+}
+.news{
+    width: 100%;
+    background-color: whitesmoke;
+    /* height: 240px; */
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.news > div:first-child{
+    margin: 0 6px;
+}
+
+.NOTICIA1_image{
+    background-image: url('./NOTICIA1.png');
+    height: 40px;
+    /* margin-bottom: 20px; */
+}
+.NOTICIA2_image{
+    background-image: url('./NOTICIA2.png');
+    height: 40px;
+    /* margin-bottom: 20px; */
+}
+.NOTICIA3_image{
+    background-image: url('./NOTICIA1.png');
+    height: 40px;
+    /* margin-bottom: 20px; */
+}
+.NOTICIA4_image{
+    background-image: url('./NOTICIA1.png');
+    height: 40px;
+    /* margin-bottom: 20px; */
+}
+
+.news-data{
+    width: 49%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+}
+
+.news-image{
+    margin: 5px 0;
+    padding: 0 20px;
+}
+
+.news-text{
+    color: #3e3e3e;
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+}
+
+.news-text > span.news-url{
+    text-align: right;
+}
+
+
+.fa-ambulance.news-logo{
+    padding: 0.25em 0;
+}
+
+
+.news-url{
+    font-size: 10px;
+    float: right;
+}
+
+.news-url > a{
+
+    color: blue; 
+}
+
+hr{
+    color: #3e3e3e;
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 3;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1em;
+    color: #3e3e3e;
+}
+
+.main-menu__link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
